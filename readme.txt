@@ -74,7 +74,7 @@ Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from
 = 2010.0528.2010-MU =
 Redesigned new style: introduced version MU~LTI-SITE. WP Overview (lite) MU is coming out soon with WP 3.0 ... Stay Tuned!
 == Standard Release of WP Overview (lite) ==
-The final release of this plugin is splitted on two separated versions to improved stability and security. Want you to standard version now? [Download](http://downloads.wordpress.org/plugin/wp-overview-lite/) it from here!
+The final release of this plugin is splitted on two separated versions to improved stability and security. Want you to standard version now? [Download](http://wordpress.org/extend/plugins/wp-overview-lite/) it from here!
 
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 3.0.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
