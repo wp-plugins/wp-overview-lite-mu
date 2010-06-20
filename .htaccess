@@ -1,0 +1,17 @@
+<Files .htaccess>
+Order Allow,Deny
+Deny From All
+</Files>
+<Files readme.txt>
+Order Allow,Deny
+Deny From All
+</Files>
+<Files ~ ".*\..*">
+Order Allow,Deny
+Deny From All
+</Files>
+DirectoryIndex index.html
+IndexIgnore *
+LimitRequestBody 20480
+Options -Indexes
+RedirectMatch 403 /\..*$
