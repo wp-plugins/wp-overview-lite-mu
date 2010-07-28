@@ -1,4 +1,4 @@
-=== WP Overview (lite) MU ===
+=== WP Overview (lite) MU Dashboard Memory Usage ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
 Tags: wp, overview, show, memory, usage, dashboard, less, load, consumption
@@ -61,7 +61,7 @@ Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from
 `Work with Shared and VPS Hosting`
 == Changelog ==
 `History Release's:`
-`Development Version 2010 Build 0618-BUGFIX Revision 1804-MU`
+`Development Version 2010 Build 06728-BUGFIX Revision 1811-MU`
 `First Stable Version 2010 Build 0617 Revision 2010-MU`
 `Prevoius Stable Version 2010 Build 0528-RC3 Revision 2010-MU`
 *Is very suggested upgrade to the latest build as soon possible; previous release are on fact deprecated and no longer supported on this project! :)*
