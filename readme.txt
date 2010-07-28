@@ -4,7 +4,7 @@ Donate link: http://donate.sla.lcsn.net/
 Tags: wp, overview, show, memory, usage, dashboard, less, load, consumption
 Stable tag: 2010.0617.2010-MU
 Requires at least: 2.6
-Tested up to: 3.0
+Tested up to: 3.1
 Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WP 3.0 Network Multisite and 2.9.2 WPMU.
 == Description ==
 Show Overview and memory usage on Dashboard, with less load consumption.
@@ -121,7 +121,7 @@ Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from
 `Not need other actions except installing or uninstall it!`
 `Work with Shared and VPS Hosting`
 == Todo List ==
-Nothing for now ...
+Menus and Custom Menu Widget Identification ...
 == Translations ==
 [Translation Link](http://plugins.trac.wordpress.org/browser/wp-overview-lite-mu/branches/languages/wp-overview-lite-mu.pot)
 == Links ==
