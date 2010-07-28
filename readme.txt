@@ -1,4 +1,4 @@
-=== WP Overview (lite) MU Dashboard Memory Usage ===
+=== WP Overview (lite) MU Dashboard Memory Bump Usage ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
 Tags: wp, overview, show, memory, usage, dashboard, less, load, consumption
@@ -33,7 +33,7 @@ Download WP Overview (lite) Dashboard Memory Usage
 = Troubleshooting =
 If all else fails and your site is broken remove directly via ftp on your host space /home/your-wp-install-dir/wp-content/plugins/wp-overview-lite-mu/ or /home/your-wp-install-dir/wp-content/mu-plugins/wp-overview-lite-mu.php
 == Frequently Asked Questions ==
-* Licence
+* License
 
  * This program is free software, but licensed work is under Creative Commons License;
    you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
@@ -41,6 +41,16 @@ If all else fails and your site is broken remove directly via ftp on your host s
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
    without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+= WP3 exceed 256 memory limit? =
+RESOLVED [WP3 exceed 256 memory limit](http://wordpress.org/support/topic/wp3-exeed-256-memory-limit?replies=5)
+WordPress 3.0 Multi-site: 256 MB Memory Requirements?
+WordPress Multi-site unofficially needs 256 Megabyte of Memory, but only for admin backend panel, not for the user frontend!
+This is a very high value, and is not announced in the minimum WordPress requirements since the 2.7 version. See also: [Technical WordPress Installation Checklist](http://codex.wordpress.org/User:Hakre/Technical_Installation)
+Because raising the memory limit over your servers allowance can crash your blog on some servers, or shared hosting, (Fatal Error: Allowed Memory Size Exhausted) it’s adviseable, previous to upgrade, increase your WordPress Memory Limit with third part plugins like [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/), and check how much PHP or WP Memory your server allows with WP Overview or similar.
+If it’s below 256 Megabytes this could render your blog useless after upgrade, and it means you need to increase your WordPress Memory Limit. Related Ticket: [Ticket #13847](http://core.trac.wordpress.org/ticket/13847)
+For this bug #13847 [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Overview (lite) MU](http://wordpress.org/extend/plugins/wp-overview-lite-mu/) need another upgrade to work fine on WP 3.0 environment.
+The fix is already online on my reposytory [lite](http://plugins.svn.wordpress.org/wp-overview-lite/trunk/) and [mu](http://plugins.svn.wordpress.org/wp-overview-lite-mu/trunk/) and it official released after [WP 3.0.1](http://core.trac.wordpress.org/milestone/3.0.1) launch.
+I tested my plugin, on various scenario, and 48MB is a good chance for somes WP and MU~LTI-SITE installations to work fine.
 = Cannot Redeclare Class: wp_overview_lite =
 Fatal error on reload after upgrade with WPMU Sitewide Plugins Mode: cannot redeclare `class wp_overview_lite` in /home/your-installation-of-wp-/wp-content/plugins/wp-overview-lite/wp-overview-lite.php on line ... This issue is only for WPMU users: WP users are not affected! This error is not fatal for the plugin or Wordpress: all it work correctly also after upgrading, but is needed re-activate WP Overview (lite) manually. No problem exist for WPMU users with the plugin on directory /mu-plugins/.
 = Network Activate Failed after Upgrading Plugin. =
