@@ -1,7 +1,7 @@
 === WP Overview (lite) MU Dashboard Memory Bump Usage ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
-Tags: wp, overview, show, memory, usage, dashboard, less, load, consumption
+Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 3.0, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
 Stable tag: 2010.0617.2010-MU
 Requires at least: 2.6
 Tested up to: 3.1
