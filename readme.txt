@@ -1,7 +1,7 @@
 === WP Overview (lite) MU Dashboard Memory Bump Usage ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
-Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 3.0, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
+Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 3.0, wordpress 3.1, wordpress 3.2, wordpress 4.0, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
 Stable tag: 2010.0617.2010-MU
 Requires at least: 2.6
 Tested up to: 3.1
@@ -10,7 +10,7 @@ Show Overview and memory usage on Wordpress Dashboard, with less load consumptio
 Show Overview and memory usage on Dashboard, with less load consumption.
 
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version
-from 2.6.x to 3.0.x but if you are still using an older one, put latest
+from 2.6.x to 3.1.x but if you are still using an older one, put latest
 release on WPMU 2.7.1 instead.
 
 Try [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
@@ -62,7 +62,7 @@ After upgrading the plugin, it is not plus Network re-Activate but local. Cause 
 
 Show Overview and memory usage on Dashboard, with less load consumption.
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 3.0.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
 `Nothing is written into your space disk or VPS`
 `Nothing is written into wp_option database table!`
@@ -113,7 +113,7 @@ Redesigned new style: introduced version MU~LTI-SITE. WP Overview (lite) MU is c
 == Standard Release of WP Overview (lite) ==
 The final release of this plugin is splitted on two separated versions to improved stability and security. Want you to standard version now? [Download](http://wordpress.org/extend/plugins/wp-overview-lite/) it from here!
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 3.0.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
 `No need to delete anything from the database.`
 `Nothing is written into wp_option database table when installing!`
