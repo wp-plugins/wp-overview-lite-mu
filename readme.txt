@@ -13,6 +13,8 @@ Written for WPMU work with Shared and VPS Hosting. Support all WPMU version
 from 2.6.x to 3.0.x but if you are still using an older one, put latest
 release on WPMU 2.7.1 instead.
 
+Try [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
+
 `Nothing is written into your space disk`
 `Nothing is written into wp_option database table!`
 `Nothing is added into database during activation!`
