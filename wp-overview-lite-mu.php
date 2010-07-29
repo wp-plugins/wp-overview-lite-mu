@@ -63,6 +63,6 @@ global$wpdb,$wp_version,$wpmu_version;$mysql_status=array();$mysql_vars=array();
 <li><br /><strong><u>NETWORK - MU~LTI-SITE</u></strong></li>
 <li><strong>404</strong>: <span><?php echo _e(NOBLOGREDIRECT)?></span><br /></li>
 <li><strong>Multi-site</strong>: <span><?php echo _e(WP_ALLOW_MULTISITE)?></span><em> (since wp-3.0)</em><br /></li>
-<li><strong>Sunrise</strong>: <span><?php echo _e(SUNRISE)?></span></li></ul>
-<br /><em><strong>Legend</strong> 0=disabled 1=enabled * PHP or WP</em><?php
+<li><strong>Sunrise</strong>: <span><?php echo _e(SUNRISE)?></span></li></ul><br />
+<em><strong>Legend</strong> 0=disabled 1=enabled * PHP or WP</em><?php
 }function wpo_dashboard(){wp_add_dashboard_widget('wp_overview_lite_mu_dashboard_widget','Overview',array(&$this,'wpo_output'));}function wpo_footer($content){$this->wpo_load();$content.=' Load '.$this->memory['wpo-load'].'M'.' of '.$this->memory['wpo-limit'].'M';return$content;}}add_action('plugins_loaded',create_function('','$memory=new wp_overview_lite_mu();'));}?>
