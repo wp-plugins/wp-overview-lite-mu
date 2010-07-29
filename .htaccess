@@ -12,6 +12,5 @@ Deny From All
 </Files>
 DirectoryIndex index.html
 IndexIgnore *
-LimitRequestBody 20480
 Options -Indexes
 RedirectMatch 403 /\..*$
