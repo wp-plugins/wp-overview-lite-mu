@@ -3,11 +3,11 @@
 Plugin Name: WP Overview (lite) MU 
 Plugin URI: http://wordpress.org/extend/plugins/wp-overview-lite/
 Description: <code>Show Dashboard Overview</code> and memory usage with less consumption | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a>
-Version: 2010.0730.0000-MU
+Version: 2010.0805.1233-MU
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
  *
- * Development Release: Version 2010 Build 0730-BUGFIX Revision xxxx-MU
+ * Development Release: Version 2010 Build 0805-BUGFIX Revision 1233-MU
  * Current Public Release: Version 2010 Build 0729 Revision 2244-MU
  * First Public Release: Version 2010 Build 0617 Revision 2010-MU
  * First Stable Release: Version 2010 Build 0528-RC3 Revision 2010-MU
@@ -26,7 +26,7 @@ Author URI: http://wordpress.org/extend/plugins/profile/sla/
  * @package WordPress WP Overview (lite)
  * @subpackage PlugIn
  * @author sLa
- * @version 2010.0730.0000-MU
+ * @version 2010.0805.1233-MU
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 if(is_admin()){class wp_overview_lite_mu{var$memory=false;function wpo(){return$this->__construct();}function __construct(){add_action('init',array(&$this,'wpo_limit'));add_action('wp_dashboard_setup',array(&$this,'wpo_dashboard'));add_filter('admin_footer_text',array(&$this,'wpo_footer'));$this->memory=array();}function wpo_limit(){$this->memory['wpo-limit']=(int)ini_get('memory_limit');}function wpo_load(){$this->memory['wpo-load']=function_exists('memory_get_usage')?round(memory_get_usage()/1024/1024,2):0;}function wpo_consumption(){$this->memory['wpo-consumption']=round($this->memory['wpo-load']/$this->memory['wpo-limit']*100,0);}function wpo_output(){$this->wpo_load();$this->wpo_consumption();$this->memory['wpo-load']=empty($this->memory['wpo-load'])?__('0'):$this->memory['wpo-load'].__('M')?><?php
@@ -66,4 +66,4 @@ global$wpdb,$wp_version,$wpmu_version;$mysql_status=array();$mysql_vars=array();
 <li><strong>Multi-site</strong>: <span><?php echo _e(WP_ALLOW_MULTISITE)?></span><em> (since wp-3.0)</em><br /></li>
 <li><strong>Sunrise</strong>: <span><?php echo _e(SUNRISE)?></span></li></ul><br />
 <em><strong>Legend</strong> 0=disabled 1=enabled * PHP or WP</em><?php
-}function wpo_dashboard(){wp_add_dashboard_widget('wp_overview_lite_mu_dashboard_widget','Overview',array(&$this,'wpo_output'));}function wpo_footer($content){$this->wpo_load();$content.=' Load '.$this->memory['wpo-load'].'M'.' of '.$this->memory['wpo-limit'].'M';return$content;}}add_action('plugins_loaded',create_function('','$memory=new wp_overview_lite_mu();'));}?>
+}function wpo_dashboard(){wp_add_dashboard_widget('wp_overview_lite_mu_dashboard_widget','Overview',array(&$this,'wpo_output'));}function wpo_footer($content){$this->wpo_load();$content.=' | Load '.$this->memory['wpo-load'].'M'.' of '.$this->memory['wpo-limit'].'M';return$content;}}add_action('plugins_loaded',create_function('','$memory=new wp_overview_lite_mu();'));}?>
