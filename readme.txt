@@ -2,18 +2,18 @@
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
 Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 3.0, wordpress 3.1, wordpress 3.2, wordpress 4.0, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
-Stable tag: 2010.0729.2244-MU
+Stable tag: 2010.0821.1539-MU
 Requires at least: 2.6
 Tested up to: 3.1
 Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WP 3.0 Network Multisite and 2.9.2 WPMU.
 == Description ==
 Show Overview and memory usage on Dashboard, with less load consumption.
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version
-from 2.6.x to 3.1.x but if you are still using an older one, put latest
-release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 and Network Multi-site 3.0.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
 Try [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
+Try [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
+Try [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 
 `Nothing is written into your space disk`
 `Nothing is written into wp_option database table!`
@@ -62,7 +62,7 @@ After upgrading the plugin, it is not plus Network re-Activate but local. Cause 
 
 Show Overview and memory usage on Dashboard, with less load consumption.
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 and Network Multi-site 3.0.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
 `Nothing is written into your space disk or VPS`
 `Nothing is written into wp_option database table!`
@@ -73,11 +73,15 @@ Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from
 `Work with Shared and VPS Hosting`
 == Changelog ==
 `History Release's:`
-`Development Release: Version 2010 Build 0730-BUGFIX Revision xxxx-MU`
+`Development Release: Version 2010 Build 0821-BUGFIX Revision 1539-MU`
 `Current Public Release: Version 2010 Build 0729 Revision 2244-MU`
 `First Public Release: Version 2010 Build 0617 Revision 2010-MU`
 `First Stable Release: Version 2010 Build 0528-RC3 Revision 2010-MU`
 *All previous release are on fact deprecated and no longer supported on this project: is very suggested upgrade to the latest build as soon possible! :)*
+= 2010.0821.1539-MU =
+* Silent Update [BUGFIX] Reduced Bloat and Code Cleanup.
+ * Please update as soon possible!
+ * Bump Version 2010 Build 0821 Revision 1539-MU
 = 2010.0729.2244-MU =
 * Silent Update [CRITICAL] Fixed PHP and WP Memory Limit.
  * Please update as soon possible!
@@ -120,8 +124,10 @@ Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from
  * Freezing features: on waiting the final release.
  * Bump Version 2010 Build 0528-RC3 Revision 2010-MU
 == Upgrade Notice ==
+= 2010.0821.1539 =
+Silent Update [BUGFIX] Reduced Bloat and Code Cleanup: please update! Add memory load on admin footer panel.
 = 2010.0729.2244-MU =
-Silent Update [CRITICAL] Fixed PHP and WP Memory Limit: please update! `Add memory load on admin footer panel`.
+Silent Update [CRITICAL] Fixed PHP and WP Memory Limit: please update! Add memory load on admin footer panel.
 = 2010.0617.2010-MU =
 First Public Stable Release of WP Overview (lite) MU is now! (full WP 3.0 and 2.9.2 WPMU compatible) 
 = 2010.0528.2010-MU =
@@ -129,7 +135,7 @@ Redesigned new style: introduced version MU~LTI-SITE. WP Overview (lite) MU is c
 == Standard Release of WP Overview (lite) ==
 The final release of this plugin is splitted on two separated versions to improved stability and security. Want you to standard version now? [Download](http://wordpress.org/extend/plugins/wp-overview-lite/) it from here!
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 and Network Multi-site 3.0.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
 `No need to delete anything from the database.`
 `Nothing is written into wp_option database table when installing!`
