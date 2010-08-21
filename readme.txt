@@ -124,7 +124,7 @@ Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from
  * Freezing features: on waiting the final release.
  * Bump Version 2010 Build 0528-RC3 Revision 2010-MU
 == Upgrade Notice ==
-= 2010.0821.1539 =
+= 2010.0821.1539-MU =
 Silent Update [BUGFIX] Reduced Bloat and Code Cleanup: please update! Add memory load on admin footer panel.
 = 2010.0729.2244-MU =
 Silent Update [CRITICAL] Fixed PHP and WP Memory Limit: please update! Add memory load on admin footer panel.
