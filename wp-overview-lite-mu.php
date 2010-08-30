@@ -3,14 +3,12 @@
 Plugin Name: WP Overview (lite) MU 
 Plugin URI: http://wordpress.org/extend/plugins/wp-overview-lite/
 Description: Show <code>Dashboard Overview</code> and memory usage with less consumption | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a>
-Version: 2010.0821.1611-MU
+Version: 2010.0828.2220-MU
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
  *
- * Development Release: Version 2010 Build 0821-BUGFIX Revision 1611-MU
- * Current Public Release: Version 2010 Build 0729 Revision 2244-MU
- * First Public Release: Version 2010 Build 0617 Revision 2010-MU
- * First Stable Release: Version 2010 Build 0528-RC3 Revision 2010-MU
+ * Development Release: Version 2010 Build 0828-BUGFIX Revision 2220-MU
+ * Stable Release: Version 2010 Build 0821 Revision 1539-MU
  *
  *  This program is free software, but licensed work is under Creative Commons License;
  *  you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
@@ -26,7 +24,7 @@ Author URI: http://wordpress.org/extend/plugins/profile/sla/
  * @package WordPress WP Overview (lite) MU
  * @subpackage PlugIn
  * @author sLa
- * @version 2010.0821.1611-MU
+ * @version 2010.0828.2220-MU
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 function wpomu_footer_log(){echo"\n<!-- Plugin -> WP Overview (lite) MU 2010.0821.1611-MU by sLa -> Active -->\n";}add_action('wp_head','wpomu_footer_log');add_action('wp_footer','wpomu_footer_log');?><?php
@@ -45,7 +43,7 @@ global$wpdb,$wp_version,$wpmu_version;$mysql_status=array();$mysql_vars=array();
 <strong>SQL </strong><span><?php printf("%s\n",mysql_get_client_info())?></span>
 <strong>Build </strong><span><?php echo$mysql_vars['version']?></span></li>
 <li><strong>WordPress</strong>:
-<strong>VER </strong><span><?php echo _e($wp_version)?></span>
+<strong>VER </strong><span><?php echo _e($wp_version)?> <?php echo _e(WPLANG)?></span>
 <strong>Max Post </strong><span><?php echo _e(ini_get('post_max_size'))?></span>
 <strong>Max Upload </strong><span><?php echo _e(ini_get('upload_max_filesize'))?></span></li>
 <li><strong>Debug</strong>:
@@ -61,7 +59,7 @@ global$wpdb,$wp_version,$wpmu_version;$mysql_status=array();$mysql_vars=array();
 <li><strong>WP (Hyper - Super - W3 Total) Cache</strong>: <span><?php echo(int)WP_CACHE?></span><em> (since wp-2.6)</em></li>
 <li><strong>Magpie RSS Cache</strong>: <span><?php echo(int)MAGPIE_CACHE_ON?></span> <strong>Age</strong> <span><?php echo(int)MAGPIE_CACHE_AGE.' seconds'?></span><em> (since wp-1.5)</em></li>
 <li><strong>Post Revisions</strong>: <span><?php echo(int)WP_POST_REVISIONS?></span><em> (since wp-2.6)</em></li>
-<li><strong>Trash</strong>: <span><?php echo(int)WP_TRASH?></span> <strong>Empity</strong> <span><?php echo(int)EMPTY_TRASH_DAYS.' days'?></span><em> (since wp-2.9)</em> <strong>Media</strong> <span><?php echo(int)MEDIA_TRASH?></span><em> (wp-3.0?)</em></li>
+<li><strong>Trash</strong>: <span><?php echo(int)WP_TRASH?></span> <strong>Empity</strong> <span><?php echo(int)EMPTY_TRASH_DAYS.' days'?></span><em> (since wp-2.9)</em></li>
 <li><br /><strong><u>NETWORK - MU~LTI-SITE</u></strong></li>
 <li><strong>404</strong>: <span><?php echo _e(NOBLOGREDIRECT)?></span><br /></li>
 <li><strong>Multi-site</strong>: <span><?php echo _e(WP_ALLOW_MULTISITE)?></span><em> (since wp-3.0)</em><br /></li>
