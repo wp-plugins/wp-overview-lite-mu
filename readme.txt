@@ -15,11 +15,20 @@ Try [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket 
 Try [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
 Try [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
 
-`Nothing is written into your space disk`
+`Nothing is written into your space disk or VPS`
+`Nothing is written into your database!`
 `Nothing is written into wp_option database table!`
 `Nothing is added into database during activation!`
+`Nothing is added into wp_option database table during activation!`
+`No need to delete anything from your space disk or VPS when deactivate`
 `No need to delete anything from the database when deactivate!`
+`No need to delete anything from the wp_option when deactivate!`
+`No need to delete anything from your space disk or VPS when removed!`
+`No need to delete anything from the database when removed!`
+`No need to delete anything from the wp_option when removed!`
 `Not need other actions except installing or uninstall it!`
+`Work with Shared and VPS Hosting`
+`Zero Bug Certified Plugin`
 == Installation ==
 Download WP Overview (lite) MU Dashboard Memory Bump Usage
 = For users of WP 3.0 MU~LTI-SITE =
@@ -65,15 +74,22 @@ Show Overview and memory usage on Dashboard, with less load consumption.
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 and Network Multi-site 3.0.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
 `Nothing is written into your space disk or VPS`
+`Nothing is written into your database!`
 `Nothing is written into wp_option database table!`
 `Nothing is added into database during activation!`
-`No need to delete anything from the wp_option when deactivate!`
+`Nothing is added into wp_option database table during activation!`
+`No need to delete anything from your space disk or VPS when deactivate`
 `No need to delete anything from the database when deactivate!`
+`No need to delete anything from the wp_option when deactivate!`
+`No need to delete anything from your space disk or VPS when removed!`
+`No need to delete anything from the database when removed!`
+`No need to delete anything from the wp_option when removed!`
 `Not need other actions except installing or uninstall it!`
 `Work with Shared and VPS Hosting`
+`Zero Bug Certified Plugin`
 == Changelog ==
 `History Release's:`
-`Development Release: Version 2010 Build 0821-BUGFIX Revision 1539-MU`
+`Development Release: Version 2010 Build 1010-BUGFIX Revision 1809-MU`
 `Current Public Release: Version 2010 Build 0729 Revision 2244-MU`
 `First Public Release: Version 2010 Build 0617 Revision 2010-MU`
 `First Stable Release: Version 2010 Build 0528-RC3 Revision 2010-MU`
@@ -137,11 +153,20 @@ The final release of this plugin is splitted on two separated versions to improv
 
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 and Network Multi-site 3.0.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
-`No need to delete anything from the database.`
-`Nothing is written into wp_option database table when installing!`
+`Nothing is written into your space disk or VPS`
+`Nothing is written into your database!`
+`Nothing is written into wp_option database table!`
+`Nothing is added into database during activation!`
+`Nothing is added into wp_option database table during activation!`
+`No need to delete anything from your space disk or VPS when deactivate`
 `No need to delete anything from the database when deactivate!`
+`No need to delete anything from the wp_option when deactivate!`
+`No need to delete anything from your space disk or VPS when removed!`
+`No need to delete anything from the database when removed!`
+`No need to delete anything from the wp_option when removed!`
 `Not need other actions except installing or uninstall it!`
 `Work with Shared and VPS Hosting`
+`Zero Bug Certified Plugin`
 == Todo List ==
 Menus and Custom Menu Widget Identification ...
 == Translations ==
