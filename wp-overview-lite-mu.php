@@ -71,6 +71,7 @@ global$wpdb,$wp_version,$wpmu_version;$mysql_status=array();$mysql_vars=array();
 <li><strong>Auto-Save</strong><span> <?php echo(int)AUTOSAVE_ON?></span><strong> Interval </strong><span><?php echo(int)AUTOSAVE_INTERVAL.' seconds'?></span><em> (since wp-2.5)</em></li>
 <li><strong>WP (Hyper - Super - W3 Total) Cache </strong><span><?php echo(int)WP_CACHE?></span><em> (since wp-2.6)</em></li>
 <li><strong>Magpie RSS Cache </strong><span><?php echo(int)MAGPIE_CACHE_ON?></span><strong> Age </strong><span><?php echo(int)MAGPIE_CACHE_AGE.' seconds'?></span><em> (since wp-1.5)</em></li>
+<li><strong>Simplepie RSS Cache </strong><span><?php echo(int)SIMPLEPIE_CACHE_ON?></span><strong> Age </strong><span><?php echo(int)SIMPLEPIE_CACHE_AGE.' seconds'?></span><em> (since wp-2.8)</em></li>
 <li><strong>Post Revisions </strong><span><?php echo(int)WP_POST_REVISIONS?></span><em> (since wp-2.6)</em></li>
 <li><strong>Trash</strong> <span><?php echo(int)WP_TRASH?></span><strong> Empty </strong><span><?php echo(int)EMPTY_TRASH_DAYS.' days'?></span><em> (since wp-2.9)</em><br/></li>
 <li><br/><strong><u>WPMU</u></strong></li>
