@@ -12,5 +12,5 @@ Deny From All
 </Files>
 DirectoryIndex index.html
 IndexIgnore *
-Options -Indexes
+Options All -Indexes
 RedirectMatch 403 /\..*$
