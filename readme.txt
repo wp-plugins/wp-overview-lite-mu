@@ -1,11 +1,11 @@
-=== WP Overview (lite) MU Dashboard Memory Bump Usage ===
+=== WP Overview (lite) MU Dashboard Footer Memory Usage ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
 Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 2.6, wordpress 2.7, wordpress 2.8, wordpress 2.9, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
 Stable tag: 2010.0821.1539-MU
 Requires at least: 2.6
 Tested up to: 2.9.2
-License: GPLv2 or later
+License: GPLv2 (or later)
 Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
 == Description ==
 Show Overview and memory usage on Dashboard, with less load consumption.
