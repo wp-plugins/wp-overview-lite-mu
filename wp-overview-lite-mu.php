@@ -6,19 +6,29 @@ Description: Show <code>Dashboard Overview</code> and memory usage with less con
 Version: 2010.1010.1809-MU
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
+License: GPLv2 or later
  *
  * Development Release: Version 2010 Build 1010-BUGFIX Revision 1809-MU
  * Stable Release: Version 2010 Build 0925 Revision 0254-MU
  *
- *  This program is free software, but licensed work is under Creative Commons License;
- *  you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
+ *  WP Overview (lite) MU - WordPress PlugIn
  *
- *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- *  without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- *  See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+ *  This program is free software; you can redistribute it and/or
+ *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+ *  as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+ *  of the License, or (at your option) any later version.
  *
- * Part of Copyright © 2009-2010 belongs to sLa [LavaTeam] NGjI ™ (slangji [at] gmail [dot] com)
- * and a portion to their respective owners ® Patent Pending - Licensing Applyed
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *
+ * Part of Copyright © 2009-2010 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
+ * and a portion to their respective owners. Not For Resale or Business Purpose.
  */
 /**
  * @package WordPress WP Overview (lite) MU

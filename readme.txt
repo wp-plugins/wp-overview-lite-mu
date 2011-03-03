@@ -1,15 +1,16 @@
 === WP Overview (lite) MU Dashboard Memory Bump Usage ===
 Contributors: sLa
 Donate link: http://donate.sla.lcsn.net/
-Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 3.0, wordpress 3.1, wordpress 3.2, wordpress 4.0, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
+Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 2.6, wordpress 2.7, wordpress 2.8, wordpress 2.9, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
 Stable tag: 2010.0821.1539-MU
 Requires at least: 2.6
-Tested up to: 3.1
-Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WP 3.0 Network Multisite and 2.9.2 WPMU.
+Tested up to: 2.9.2
+License: GPLv2 or later
+Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
 == Description ==
 Show Overview and memory usage on Dashboard, with less load consumption.
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 and Network Multi-site 3.0.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
 Try [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
 Try [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
@@ -44,14 +45,26 @@ Download WP Overview (lite) MU Dashboard Memory Bump Usage
 = Troubleshooting =
 If all else fails and your site is broken remove directly via ftp on your host space /home/your-wp-install-dir/wp-content/plugins/wp-overview-lite-mu/ or /home/your-wp-install-dir/wp-content/mu-plugins/wp-overview-lite-mu.php
 == Frequently Asked Questions ==
+== Licensing ==
 * License
-
- * This program is free software, but licensed work is under Creative Commons License;
-   you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
-
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-   without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-   See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+ *  This program is free software; you can redistribute it and/or
+    modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+    as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+    of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+* Disclaimer
+ * The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the license is included with every copy of WordPress.
+ * Part of this license outlines requirements for derivative works, such as plugins or themes. Derivatives of WordPress code inherit the GPL license.
+ * There is some legal grey area regarding what is considered a derivative work, but we feel strongly that plugins and themes are derivative work and thus inherit the GPL license.
+* Copyright
+ * Part of copyright belongs to sLaT and a portion to their respective owners.
+   Not For Resale or Business Purpose.
 = WP3 exceed 256 memory limit? =
 RESOLVED [WP3 exceed 256 memory limit](http://wordpress.org/support/topic/wp3-exeed-256-memory-limit?replies=5)
 WordPress 3.0 Multi-site: 256 MB Memory Requirements?
@@ -67,11 +80,11 @@ Fatal error on reload after upgrade with WPMU Sitewide Plugins Mode: cannot rede
 = Network Activate Failed after Upgrading Plugin. =
 After upgrading the plugin, it is not plus Network re-Activate but local. Cause of this issue is one WP conflict with W3 Total Cache. All plugins have this issue not only WP Overview (lite). The solution is deactivate W3 Total Cache before any plugin update and reactivate W3 Total Cache it after updating is terminated.
 == Screenshots ==
-[Screenshot](http://plugins.trac.wordpress.org/browser/wp-overview-lite-mu/branches/screenshots/screenshot.jpg) of the WP Overview (lite) MU on WordPress `3.0` Dashboard.
+[Screenshot](http://plugins.trac.wordpress.org/browser/wp-overview-lite-mu/branches/screenshots/screenshot.jpg) of the WP Overview (lite) MU on WordPress `2.9.2` Dashboard.
 
 Show Overview and memory usage on Dashboard, with less load consumption.
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 and Network Multi-site 3.0.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
 `Nothing is written into your space disk or VPS`
 `Nothing is written into your database!`
@@ -151,7 +164,7 @@ Redesigned new style: introduced version MU~LTI-SITE. WP Overview (lite) MU is c
 == Standard Release of WP Overview (lite) ==
 The final release of this plugin is splitted on two separated versions to improved stability and security. Want you to standard version now? [Download](http://wordpress.org/extend/plugins/wp-overview-lite/) it from here!
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 and Network Multi-site 3.0.x to 3.1.x but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
 `Nothing is written into your space disk or VPS`
 `Nothing is written into your database!`
@@ -176,4 +189,4 @@ Thanks to all keep the [Credit Link](http://sla.lcsn.net/) :D
 == Updates ==
 [Update Link](http://svn.sla.lcsn.net/wp-overview/)
 == Thanks ==
-Part of copyright belongs to sLa and a portion to their respective owners.
+Thanks to all keep the credit link or donate for this free work :D
