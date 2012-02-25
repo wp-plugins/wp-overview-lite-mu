@@ -12,15 +12,22 @@ Author URI: http://wordpress.org/extend/plugins/profile/sla/
  * First Public Release: Version 2010 Build 0617 Revision 2010-MU
  * First Stable Release: Version 2010 Build 0528-RC3 Revision 2010-MU
  *
- *  This program is free software, but licensed work is under Creative Commons License;
- *  you can use it only with the terms of [Attribution-Noncommercial-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nc-nd/3.0/).
+ *  This program is free software; you can redistribute it and/or
+ *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+ *  as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+ *  of the License, or (at your option) any later version.
  *
- *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- *  without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- *  See the terms of the [GNU General Public License](http://wordpress.org/about/gpl/) as published by the Free Software Foundation.
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
  *
- * Part of Copyright © 2009-2010 belongs to sLa [LavaTeam] NGjI ™ (slangji [at] gmail [dot] com)
- * and a portion to their respective owners ® Patent Pending - Licensing Applyed
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *
+ * Part of Copyright © 2010 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
+ * and a portion to their respective owners. Not For Resale or Business Purpose.
  *
 /**
  * @package WordPress WP Overview (lite) MU
