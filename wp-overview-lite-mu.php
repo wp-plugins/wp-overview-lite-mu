@@ -2,11 +2,11 @@
 /*
 Plugin Name: WP Overview (lite) MU 
 Plugin URI: http://wordpress.org/extend/plugins/wp-overview-lite/
-Description: Show <code>Dashboard Overview</code> and memory usage with less consumption | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a>
+Description: Show <code>Dashboard Overview</code> and memory usage with less consumption. Work under GPLv2 License. | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a>
 Version: 2010.1010.1809-MU
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
-License: GPLv2 or later
+License: GPLv2
  *
  * Development Release: Version 2010 Build 1010-BUGFIX Revision 1809-MU
  * Stable Release: Version 2010 Build 0925 Revision 0254-MU
@@ -27,7 +27,7 @@ License: GPLv2 or later
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
- * Part of Copyright © 2009-2010 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
+ * Part of Copyright © 2010 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
  * and a portion to their respective owners. Not For Resale or Business Purpose.
  */
 /**
@@ -35,6 +35,8 @@ License: GPLv2 or later
  * @subpackage PlugIn
  * @author sLa
  * @version 2010.1010.1809-MU
+ * @author sLa
+ * @license GPLv2
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 function wpomu_footer_log(){echo"\n<!--Plugin WP Overview (lite) MU 2010.1010.1809-MU Active-->\n";}add_action('wp_head','wpomu_footer_log');add_action('wp_footer','wpomu_footer_log');?><?php

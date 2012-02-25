@@ -5,10 +5,10 @@ Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashb
 Stable tag: 2010.0821.1539-MU
 Requires at least: 2.6
 Tested up to: 2.9.2
-License: GPLv2 (or later)
+License: GPLv2
 Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
 == Description ==
-Show Overview and memory usage on Dashboard, with less load consumption.
+Show Overview and memory usage on Dashboard, with less load consumption. Work under GPLv2 License.
 
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
 
