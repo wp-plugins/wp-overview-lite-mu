@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Overview (lite) MU 
 Plugin URI: http://wordpress.org/extend/plugins/wp-overview-lite/
-Description: Show <code>Dashboard Overview</code> and memory usage with less consumption. Work under GPLv2 License. | <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a>
+Description: Show <code>Dashboard Overview</code> and memory usage with less consumption. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a>
 Version: 2010.0821.1539-MU
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
