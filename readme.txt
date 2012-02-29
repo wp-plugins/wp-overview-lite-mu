@@ -3,14 +3,14 @@ Contributors: sLa
 Donate link: http://lcsn.net/donate/
 Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 2.6, wordpress 2.7, wordpress 2.8, wordpress 2.9, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
 Stable tag: 2010.0821.1539-MU
-Requires at least: 2.6
+Requires at least: 2.7
 Tested up to: 2.9.2
 License: GPLv2
 Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
 == Description ==
 Show Overview and memory usage on Dashboard, with less load consumption. Work under GPLv2 License.
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.7.0 to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.9.2 instead.
 
 Try [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
 Try [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
@@ -79,9 +79,9 @@ After upgrading the plugin, it is not plus Network re-Activate but local. Cause 
 == Screenshots ==
 [Screenshot](http://plugins.trac.wordpress.org/browser/wp-overview-lite-mu/branches/screenshots/screenshot.jpg) of the WP Overview (lite) MU on WordPress `2.9.2` Dashboard.
 
-Show Overview and memory usage on Dashboard, with less load consumption.
+Show Overview and memory usage on Dashboard, with less load consumption. Work under GPLv2 License.
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.7.0 to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.9.2 instead.
 
 `Nothing is written into your space disk or VPS`
 `Nothing is written into your database!`
@@ -161,7 +161,9 @@ Redesigned new style: introduced version MU~LTI-SITE. WP Overview (lite) MU is c
 == Standard Release of WP Overview (lite) ==
 The final release of this plugin is splitted on two separated versions to improved stability and security. Want you to standard version now? [Download](http://wordpress.org/extend/plugins/wp-overview-lite/) it from here!
 
-Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.6.x to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.7.1 instead.
+Show Overview and memory usage on Dashboard, with less load consumption. Work under GPLv2 License.
+
+Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.7.0 to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.9.2 instead.
 
 `Nothing is written into your space disk or VPS`
 `Nothing is written into your database!`
@@ -182,8 +184,8 @@ Menus and Custom Menu Widget Identification ...
 == Translations ==
 [Translation Link](http://plugins.trac.wordpress.org/browser/wp-overview-lite-mu/branches/languages/wp-overview-lite-mu.pot)
 == Links ==
-Thanks to all keep the [Credit Link](http://sla.lcsn.net/) :D
+Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile/sla/) :D
 == Updates ==
-[Update Link](http://svn.sla.lcsn.net/wp-overview/)
+[Update Link](http://wordpress.org/extend/plugins/wp-overview-lite-mu/)
 == Thanks ==
 Thanks to all keep the credit link or donate for this free work :D
