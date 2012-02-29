@@ -2,13 +2,15 @@
 /*
 Plugin Name: WP Overview (lite) MU
 Plugin URI: http://wordpress.org/extend/plugins/wp-overview-lite-mu/
-Description: <code>Show Dashboard Overview</code> and memory usage with less consumption. <a href="http://donate.sla.lcsn.net/" title="Donate author plugin">Donate</a>
+Description: <code>Show Dashboard Overview</code> and memory usage with less consumption. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a>
 Version: 2010.0528.2010-MU
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
+License: GPLv2
  *
  * Development Release: Version 2010 Build 0529-RC Revision 0000-MU
- * Current Stable Release: Version 2010 Build 0528-RC3 Revision 2010-MU
+ *
+ * WP Overview (lite) MU - WordPress PlugIn
  *
  *  This program is free software; you can redistribute it and/or
  *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -17,21 +19,24 @@ Author URI: http://wordpress.org/extend/plugins/profile/sla/
  *
  *  This program is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
  *  along with this program; if not, write to the Free Software
- *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * Part of Copyright © 2010 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
- * and a portion to their respective owners. Not For Resale or Business Purpose.
- *
+ * Copyright © 2010 [sLaNGjI](http://wordpress.org/extend/plugins/profile/sla/) a.k.a. sLa (slangji [at] gmail [dot] com)
+ */
 /**
- * @package WordPress WP Overview (lite) MU
- * @subpackage PlugIn
- * @author sLa
+ * @package WP Overview (lite) MU
+ * @subpackage WordPress MU PlugIn
+ * @since 2.7.0
  * @version 2010.0528.2010-MU
+ * @author sLa
+ * @license GPLv2
+ *
+ * Show Dashboard Overview and memory usage with less consumption. Work under GPLv2 License.
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 if(is_admin()){
