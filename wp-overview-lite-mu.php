@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Overview (lite) MU 
-Plugin URI: http://wordpress.org/extend/plugins/wp-overview-lite/
+Plugin URI: http://wordpress.org/extend/plugins/wp-overview-lite-mu/
 Description: Show <code>Dashboard Overview</code> and memory usage with less consumption. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a>
 Version: 2010.0821.1539-MU
 Author: sLa
@@ -36,7 +36,7 @@ License: GPLv2
  * @author sLa
  * @license GPLv2
  *
- * Show Dashboard Overview and memory usage with less consumption.
+ * Show Dashboard Overview and memory usage with less consumption. Work under GPLv2 License.
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 function wpomu_footer_log(){echo"\n<!-- Plugin -> WP Overview (lite) MU 2010.0821.1539-MU by sLa -> Active -->\n";}add_action('wp_head','wpomu_footer_log');add_action('wp_footer','wpomu_footer_log');?><?php
