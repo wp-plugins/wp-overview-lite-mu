@@ -53,18 +53,15 @@ If all else fails and your site is broken remove directly via ftp on your host s
     of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
     GNU General Public License for more details.
  *  You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 * Disclaimer
  * The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the license is included with every copy of WordPress.
  * Part of this license outlines requirements for derivative works, such as plugins or themes. Derivatives of WordPress code inherit the GPL license.
  * There is some legal grey area regarding what is considered a derivative work, but we feel strongly that plugins and themes are derivative work and thus inherit the GPL license.
-* Copyright
- * Part of copyright belongs to sLaT and a portion to their respective owners.
-   Not For Resale or Business Purpose.
 = WP3 exceed 256 memory limit? =
 RESOLVED [WP3 exceed 256 memory limit](http://wordpress.org/support/topic/wp3-exeed-256-memory-limit?replies=5)
 WordPress 3.0 Multi-site: 256 MB Memory Requirements?
