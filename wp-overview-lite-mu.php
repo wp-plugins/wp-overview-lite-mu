@@ -8,12 +8,9 @@ Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
 License: GPLv2
  *
- * Development Release: Version 2010 Build 0821-BUGFIX Revision 1539-MU
- * Current Public Release: Version 2010 Build 0729 Revision 2244-MU
- * First Public Release: Version 2010 Build 0617 Revision 2010-MU
- * First Stable Release: Version 2010 Build 0528-RC3 Revision 2010-MU
+ * Development Release: Version 2010 Build 1010-BUGFIX Revision 1809-MU
  *
- *  WP Overview (lite) MU - WordPress PlugIn
+ * WP Overview (lite) MU - WordPress PlugIn
  *
  *  This program is free software; you can redistribute it and/or
  *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -22,23 +19,24 @@ License: GPLv2
  *
  *  This program is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
  *  along with this program; if not, write to the Free Software
- *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * Part of Copyright © 2010 belongs to slaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
- * and a portion to their respective owners ® Patent Pending - Licensing Applyed - Not For Resale or Business Purpose.
+ * Copyright © 2010 [sLaNGjI](http://wordpress.org/extend/plugins/profile/sla/) a.k.a. sLa (slangji [at] gmail [dot] com)
  */
 /**
- * @package WordPress WP Overview (lite) MU
- * @subpackage PlugIn
- * @author sLa
+ * @package WP Overview (lite) MU
+ * @subpackage WordPress MU PlugIn
+ * @since 2.7.0
  * @version 2010.0821.1539-MU
  * @author sLa
  * @license GPLv2
+ *
+ * Show Dashboard Overview and memory usage with less consumption.
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 function wpomu_footer_log(){echo"\n<!-- Plugin -> WP Overview (lite) MU 2010.0821.1539-MU by sLa -> Active -->\n";}add_action('wp_head','wpomu_footer_log');add_action('wp_footer','wpomu_footer_log');?><?php
