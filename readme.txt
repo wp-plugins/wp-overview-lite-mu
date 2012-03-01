@@ -1,4 +1,4 @@
-=== WP Overview (lite) MU Dashboard Memory Bump Usage ===
+=== WP Overview (lite) MU Footer Memory Usage ===
 Contributors: sLa
 Donate link: http://lcsn.net/donate/
 Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 3.0, wordpress 3.1, wordpress 3.2, wordpress 4.0, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
@@ -134,7 +134,7 @@ Menus and Custom Menu Widget Identification ...
 == Translations ==
 [Translation Link](http://plugins.trac.wordpress.org/browser/wp-overview-lite-mu/branches/languages/wp-overview-lite-mu.pot)
 == Links ==
-Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile/sla/) :D
+Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile/slangji) :D
 == Updates ==
 [Update Link](http://wordpress.org/extend/plugins/wp-overview-lite-mu/)
 == Thanks ==
