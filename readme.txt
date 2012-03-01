@@ -12,9 +12,16 @@ Show Overview and memory usage on Dashboard, with less load consumption. Work un
 
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.7.0 to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.9.2 instead.
 
-Try [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
-Try [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
-Try [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+* Try also:
+ * [WP Overview (lite) MS](http://wordpress.org/extend/plugins/wp-overview-lite-ms/) Alpha release only for Network Multi-site environment.
+ * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
+ * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/) for Fix Future Missed Scheduled Posts. (best plugin zero bug certified)
+ * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) for Completely Disable Admin Bar Frontend Backend User and Code. (featured plugin zero bug certified)
+ * [WP IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
+ * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/) Total deindexing WordPress from search engines, scrap snippet, images lurking, slow preview, bad description, improbable translations, outdated cache. (good plugin zero bug certified)
+ *
+ * [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
+ * [Health Check](http://wordpress.org/extend/plugins/health-check/) verify if the PHP and MySQL versions of your server are not too low to meet the requirements that we have announced for WordPress 3.2.
 
 `Nothing is written into your space disk or VPS`
 `Nothing is written into your database!`
