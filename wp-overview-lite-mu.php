@@ -7,6 +7,7 @@ Version: 2010.1010.1809-MU
 Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/slangji
 License: GPLv2
+License URI: http://plugins.svn.wordpress.org/wp-overview-lite-mu/trunk/gpl-2.0.txt
  *
  * Stable Release: Version 2010 Build 0821 Revision 1539-MU
  * Major Stable Release: Version 2010 Build 0617 Revision 2010-MU
