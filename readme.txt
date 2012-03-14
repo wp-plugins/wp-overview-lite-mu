@@ -1,5 +1,5 @@
 === WP Overview (lite) MU Footer Memory Usage ===
-Contributors: sLa
+Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
 Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 3.0, wordpress 3.1, wordpress 3.2, wordpress 4.0, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
 Stable tag: 2010.0729.2244-MU
@@ -154,4 +154,4 @@ Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile
 == Updates ==
 [Update Link](http://wordpress.org/extend/plugins/wp-overview-lite-mu/)
 == Thanks ==
-Part of copyright belongs to sLa and a portion to their respective owners.
+Part of copyright belongs to sLaNGjI and a portion to their respective owners.
