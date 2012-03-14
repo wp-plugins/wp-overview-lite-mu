@@ -1,5 +1,5 @@
 === WP Overview (lite) MU Footer Memory Usage ===
-Contributors: sLa
+Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
 Tags: wp, overview, show, memory, usage, dashboard, less, load, consumption
 Stable tag: 2010.0528.2010-MU
@@ -101,4 +101,4 @@ Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile
 == Updates ==
 [Update Link](http://wordpress.org/extend/plugins/wp-overview-lite-mu/)
 == Thanks ==
-Part of copyright belongs to sLa and a portion to their respective owners.
+Part of copyright belongs to sLaNGjI and a portion to their respective owners.
