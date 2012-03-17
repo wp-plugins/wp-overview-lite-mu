@@ -1,21 +1,20 @@
 <?php
 /*
 Plugin Name: WP Overview (lite) MU 
-Plugin URI: http://wordpress.org/extend/plugins/wp-overview-lite-mu/
+Plugin URI: http://slangji.wordpress.com/wp-overview-lite-mu/
 Description: Show <code>Dashboard Overview</code> and memory usage with less consumption. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Schedule Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend and User Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a>
 Version: 2010.0821.1539-MU
-Author: sLaNGjI
-Author URI: http://wordpress.org/extend/plugins/profile/slangji
+Author: sLa
+Author URI: http://slangji.wordpress.com/
 License: GPLv2
-License URI: http://plugins.svn.wordpress.org/wp-overview-lite-mu/trunk/gpl-2.0.txt
  *
  * Development Release: Version 2010 Build 1010-BUGFIX Revision 1809-MU
  *
- * WP Overview (lite) MU - WordPress PlugIn
+ * [Overview (lite) MU](http://wordpress.org/extend/plugins/wp-overview-lite-mu/) WordPress MU PlugIn
  *
  *  This program is free software; you can redistribute it and/or
- *  modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
- *  as published by the Free Software Foundation; either [version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+ *  modify it under the terms of the GNU General Public License
+ *  as published by the Free Software Foundation; either version 2
  *  of the License, or (at your option) any later version.
  *
  *  This program is distributed in the hope that it will be useful,
@@ -27,7 +26,13 @@ License URI: http://plugins.svn.wordpress.org/wp-overview-lite-mu/trunk/gpl-2.0.
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * Copyright © 2010 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji) a.k.a. [sLa](slangji [at] gmail [dot] com)
+ *  The license for this software can be found @ http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * This uses code derived from
+ * wp-overview-lite.php by sLa <slangji[at]gmail[dot]com>
+ * according to the terms of the GNU General Public License version 2 (or later)
+ *
+ * Copyright © 2010 [sLa](http://wordpress.org/extend/plugins/profile/slangji) (slangji[at]gmail[dot]com)
  */
 /**
  * @package WP Overview (lite) MU
@@ -37,7 +42,7 @@ License URI: http://plugins.svn.wordpress.org/wp-overview-lite-mu/trunk/gpl-2.0.
  * @author sLaNGjI
  * @license GPLv2
  *
- * Show Dashboard Overview and memory usage with less consumption. Work under GPLv2 License.
+ * Show Dashboard Overview and Memory Usage with less consumption.
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 function wpomu_footer_log(){echo"\n<!--Plugin WP Overview (lite) MU 2010.0821.1539-MU Active-->";}add_action('wp_head','wpomu_footer_log');add_action('wp_footer','wpomu_footer_log');?><?php
