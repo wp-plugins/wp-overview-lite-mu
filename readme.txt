@@ -191,7 +191,7 @@ Menus and Custom Menu Widget Identification ...
 == Translations ==
 [Translation Link](http://plugins.trac.wordpress.org/browser/wp-overview-lite-mu/branches/languages/wp-overview-lite-mu.pot)
 == Links ==
-Thanks to all keep the [Credit Link](http://wordpress.org/extend/plugins/profile/slangji) :D
+Thanks to all keep the [Credit Link](http://slangji.wordpress.com/) :D
 == Updates ==
 [Update Link](http://wordpress.org/extend/plugins/wp-overview-lite-mu/)
 == Thanks ==
