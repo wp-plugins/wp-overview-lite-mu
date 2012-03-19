@@ -1,7 +1,7 @@
 === WP Overview (lite) MU Footer Memory Usage ===
 Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
-Tags: memory, limit, bump, wp, overview, lite, mu, show, wordpress, usage, dashboard, less, load, consumption, wordpress 2.6, wordpress 2.7, wordpress 2.8, wordpress 2.9, memory limit, memory bump, memory usage, memory load, memory consumption, dashboard overview, wp overview
+Tags: memory, limit, bump, wp, overview, lite, mu, show, usage, dashboard, load, footer
 Stable tag: 2010.0821.1539-MU
 Requires at least: 2.7
 Tested up to: 2.9.2
@@ -13,15 +13,22 @@ Show Overview and memory usage on Dashboard, with less load consumption. Work un
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.7.0 to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.9.2 instead.
 
 * Try also:
- * [WP Overview (lite) MS](http://wordpress.org/extend/plugins/wp-overview-lite-ms/) Alpha release only for Network Multi-site environment.
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
- * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/) for Fix Future Missed Scheduled Posts. (best plugin zero bug certified)
- * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) for Completely Disable Admin Bar Frontend Backend User and Code. (featured plugin zero bug certified)
- * [WP IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
- * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/) Total deindexing WordPress from search engines, scrap snippet, images lurking, slow preview, bad description, improbable translations, outdated cache. (good plugin zero bug certified)
+ * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+ * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
+ * [WP Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
+ * [WP Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/)
+ * [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
+ * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
+ * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+ * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
  *
  * [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
  * [Health Check](http://wordpress.org/extend/plugins/health-check/) verify if the PHP and MySQL versions of your server are not too low to meet the requirements that we have announced for WordPress 3.2.
+
+Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
+
+Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
 
 `Nothing is written into your space disk or VPS`
 `Nothing is written into your database!`
