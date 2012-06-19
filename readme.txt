@@ -1,6 +1,6 @@
 === WP Overview (lite) MU Footer Memory Usage ===
 Contributors: sLaNGjI
-Donate link: http://lcsn.net/donate/
+Donate link: http://slangji.wordpress.com/donate/
 Tags: memory, limit, bump, wp, overview, lite, mu, show, usage, dashboard, load, footer
 Stable tag: 2010.0821.1539-MU
 Requires at least: 2.7
