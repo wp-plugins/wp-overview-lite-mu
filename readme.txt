@@ -8,6 +8,8 @@ Tested up to: 2.9.2
 License: GPLv2
 Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
 == Description ==
+Website: [slangji.wordpress.com](http://slangji.wordpress.com/)
+
 Show Overview and memory usage on Dashboard, with less load consumption. Work under GPLv2 License.
 
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.7.0 to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.9.2 instead.
