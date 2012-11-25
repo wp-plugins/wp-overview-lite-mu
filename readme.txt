@@ -1,14 +1,16 @@
 === WP Overview (lite) MU Footer Memory Usage ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
-Tags: memory, limit, bump, wp, overview, lite, mu, show, usage, dashboard, load, footer
+Tags: memory,limit,wp,overview,lite,mu,show,usage,dashboard,load,footer,sLaNGjI
 Stable tag: 2010.0821.1539-MU
 Requires at least: 2.7
 Tested up to: 2.9.2
 License: GPLv2
 Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
 == Description ==
-Website: [slangji.wordpress.com](http://slangji.wordpress.com/)
+Author Website: [slangji.wordpress.com](http://slangji.wordpress.com/) - Author Repositories: [github.com/sLaNGjI](https://github.com/sLaNGjI)
+
+[Find More on sLa Developer Page @ SoftPedia.com](http://webscripts.softpedia.com/author/sLa-1869786722.html)
 
 Show Overview and memory usage on Dashboard, with less load consumption. Work under GPLv2 License.
 
@@ -17,13 +19,14 @@ Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
- * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
+ * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
  * [WP Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
- * [WP Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/)
+ * [WP Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
  * [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
  * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
  * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
- * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
+ * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
+ * [Memory Load Consumption db size Usage Indicator](http://wordpress.org/extend/plugins/wp-memory-db-indicator/)
  *
  * [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
  * [Health Check](http://wordpress.org/extend/plugins/health-check/) verify if the PHP and MySQL versions of your server are not too low to meet the requirements that we have announced for WordPress 3.2.
