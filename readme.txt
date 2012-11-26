@@ -16,8 +16,10 @@ Show Overview and memory usage on Dashboard, with less load consumption. Work un
 
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.7.0 to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.9.2 instead.
 
-* Try also:
+* Plugins:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
+ * [WP Overview (lite) MU](http://wordpress.org/extend/plugins/wp-overview-mu/)
+ * [WP Overview (lite) MS](http://wordpress.org/extend/plugins/wp-overview-ms/)
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
  * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
  * [WP Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
