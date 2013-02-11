@@ -44,10 +44,85 @@ License: GPLv2
  *
  * Show Dashboard Overview and Memory Usage with less consumption.
  */
-if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
-function wpomu_footer_log(){echo"\n<!--Plugin WP Overview (lite) MU 2010.0821.1539-MU Active-->";}add_action('wp_head','wpomu_footer_log');add_action('wp_footer','wpomu_footer_log');?><?php
-if(is_admin()){class wp_overview_lite_mu{var$memory=false;function wpo(){return$this->__construct();}function __construct(){add_action('init',array(&$this,'wpo_limit'));add_action('wp_dashboard_setup',array(&$this,'wpo_dashboard'));add_filter('admin_footer_text',array(&$this,'wpo_footer'));$this->memory=array();}function wpo_limit(){$this->memory['wpo-limit']=(int)ini_get('memory_limit');}function wpo_load(){$this->memory['wpo-load']=function_exists('memory_get_usage')?round(memory_get_usage()/1024/1024,2):0;}function wpo_consumption(){$this->memory['wpo-consumption']=round($this->memory['wpo-load']/$this->memory['wpo-limit']*100,0);}function wpo_output(){$this->wpo_load();$this->wpo_consumption();$this->memory['wpo-load']=empty($this->memory['wpo-load'])?__('0'):$this->memory['wpo-load'].__('M')?><?php
-global$wpdb,$wp_version,$wpmu_version;$mysql_status=array();$mysql_vars=array();foreach($wpdb->get_results('SHOW GLOBAL STATUS')as$result){$mysql_status[$result->Variable_name]=$result->Value;}foreach($wpdb->get_results('SHOW GLOBAL VARIABLES')as$result){$mysql_vars[$result->Variable_name]=$result->Value;}$uptime_days=$mysql_status['Uptime']/86400;$uptime_hours=($uptime_days-(int)$uptime_days)*24;$uptime_minutes=($uptime_hours-(int)$uptime_hours)*60;$uptime_seconds=($uptime_minutes-(int)$uptime_minutes)*60;$uptime_string=(int)$uptime_days.' days, '.(int)$uptime_hours.' hours, '.(int)$uptime_minutes.' minutes, '.(int)$uptime_seconds.' seconds'?>
+?>
+<?php
+	if (!function_exists('add_action'))
+		{
+			header('HTTP/1.0 403 Forbidden');
+			header('HTTP/1.1 403 Forbidden');
+			exit();
+		}
+?>
+<?php
+	function wpomu_footer_log()
+		{
+			echo "\n<!--Plugin WP Overview (lite) MU 2010.0821.1539-MU Active-->\n\n";
+		}
+	add_action('wp_head', 'wpomu_footer_log');
+	add_action('wp_footer', 'wpomu_footer_log');
+?>
+<?php
+	if (is_admin())
+		{
+			class wp_overview_lite_mu
+				{
+					var $memory = false;
+					function wpo()
+						{
+							return $this->__construct();
+						}
+					function __construct()
+						{
+							add_action('init', array(
+									&$this,
+									'wpo_limit'
+							));
+							add_action('wp_dashboard_setup', array(
+									&$this,
+									'wpo_dashboard'
+							));
+							add_filter('admin_footer_text', array(
+									&$this,
+									'wpo_footer'
+							));
+							$this->memory = array();
+						}
+					function wpo_limit()
+						{
+							$this->memory['wpo-limit'] = (int) ini_get('memory_limit');
+						}
+					function wpo_load()
+						{
+							$this->memory['wpo-load'] = function_exists('memory_get_usage') ? round(memory_get_usage() / 1024 / 1024, 2) : 0;
+						}
+					function wpo_consumption()
+						{
+							$this->memory['wpo-consumption'] = round($this->memory['wpo-load'] / $this->memory['wpo-limit'] * 100, 0);
+						}
+					function wpo_output()
+						{
+							$this->wpo_load();
+							$this->wpo_consumption();
+							$this->memory['wpo-load'] = empty($this->memory['wpo-load']) ? __('0') : $this->memory['wpo-load'] . __('M')
+?>
+<?php
+							global $wpdb, $wp_version, $wpmu_version;
+							$mysql_status = array();
+							$mysql_vars   = array();
+							foreach ($wpdb->get_results('SHOW GLOBAL STATUS') as $result)
+								{
+									$mysql_status[$result->Variable_name] = $result->Value;
+								}
+							foreach ($wpdb->get_results('SHOW GLOBAL VARIABLES') as $result)
+								{
+									$mysql_vars[$result->Variable_name] = $result->Value;
+								}
+							$uptime_days    = $mysql_status['Uptime'] / 86400;
+							$uptime_hours   = ($uptime_days - (int) $uptime_days) * 24;
+							$uptime_minutes = ($uptime_hours - (int) $uptime_hours) * 60;
+							$uptime_seconds = ($uptime_minutes - (int) $uptime_minutes) * 60;
+							$uptime_string  = (int) $uptime_days . ' days, ' . (int) $uptime_hours . ' hours, ' . (int) $uptime_minutes . ' minutes, ' . (int) $uptime_seconds . ' seconds'
+?>
 <ul><li><strong>Mem</strong>:
 <strong>WP </strong><span><?php echo WP_MEMORY_LIMIT?></span>
 <strong>Usage </strong><span><?php echo$this->memory['wpo-consumption'].'%'.' '.$this->memory['wpo-load']?></span>
@@ -82,5 +157,23 @@ global$wpdb,$wp_version,$wpmu_version;$mysql_status=array();$mysql_vars=array();
 <li><strong>404</strong>: <span><?php echo _e(NOBLOGREDIRECT)?></span><br /></li>
 <li><strong>Multi-site</strong>: <span><?php echo _e(WP_ALLOW_MULTISITE)?></span><em> (since wp-3.0)</em><br /></li>
 <li><strong>Sunrise</strong>: <span><?php echo _e(SUNRISE)?></span></li></ul><br />
-<em><strong>Legend</strong> 0=disabled 1=enabled * PHP or WP</em><?php
-}function wpo_dashboard(){wp_add_dashboard_widget('wp_overview_lite_mu_dashboard_widget','Overview',array(&$this,'wpo_output'));}function wpo_footer($content){$this->wpo_load();$content.=' | Load '.$this->memory['wpo-load'].'M'.' of '.$this->memory['wpo-limit'].'M';return$content;}}add_action('plugins_loaded',create_function('','$memory=new wp_overview_lite_mu();'));}?>
+<em><strong>Legend</strong> 0=disabled 1=enabled * PHP or WP</em>
+<?php
+						}
+					function wpo_dashboard()
+						{
+							wp_add_dashboard_widget('wp_overview_lite_mu_dashboard_widget', 'Overview', array(
+									&$this,
+									'wpo_output'
+							));
+						}
+					function wpo_footer($content)
+						{
+							$this->wpo_load();
+							$content .= ' | Load ' . $this->memory['wpo-load'] . 'M' . ' of ' . $this->memory['wpo-limit'] . 'M';
+							return $content;
+						}
+				}
+			add_action('plugins_loaded', create_function('', '$memory=new wp_overview_lite_mu();'));
+		}
+?>
