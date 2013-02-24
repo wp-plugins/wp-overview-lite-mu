@@ -202,11 +202,3 @@ Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from
 `Zero Bug Certified Plugin`
 == Todo List ==
 Menus and Custom Menu Widget Identification ...
-== Translations ==
-[Translation Link](http://plugins.trac.wordpress.org/browser/wp-overview-lite-mu/branches/languages/wp-overview-lite-mu.pot)
-== Links ==
-Thanks to all keep the [Credit Link](http://slangji.wordpress.com/) :D
-== Updates ==
-[Update Link](http://wordpress.org/extend/plugins/wp-overview-lite-mu/)
-== Thanks ==
-Thanks to all keep the credit link or donate for this free work :D
