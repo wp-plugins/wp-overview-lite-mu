@@ -1,12 +1,13 @@
-=== WP Overview (lite) MU Footer Memory Usage ===
+=== √ WP Overview (lite) MU Footer Memory Usage ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: memory,limit,wp,overview,lite,mu,show,usage,dashboard,load,footer,sLaNGjI
 Stable tag: 2010.0821.1539-MU
 Requires at least: 2.7
 Tested up to: 2.9.2
-License: GPLv2
-Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+&#9733;&#9733;&#9733; Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
 == Description ==
 Author Website: [slangji.wordpress.com](http://slangji.wordpress.com/) - Author Repositories: [github.com/sLaNGjI](https://github.com/sLaNGjI)
 
