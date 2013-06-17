@@ -1,12 +1,13 @@
-=== WP Overview (lite) MU Footer Memory Usage ===
+=== √ WP Overview (lite) MU Footer Memory Usage ===
 Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
 Tags: wp, overview, show, memory, usage, dashboard, less, load, consumption
 Stable tag: 2010.0528.2010-MU
 Requires at least: 2.7
 Tested up to: 2.9.2
-License: GPLv2
-Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WP 3.0 Network Multisite and 2.9.2 WPMU.
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+&#9733;&#9733;&#9733; Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WP 3.0 Network Multisite and 2.9.2 WPMU.
 == Description ==
 Show Overview and memory usage on Dashboard, with less load consumption. Work under GPLv2 License.
 

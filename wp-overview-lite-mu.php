@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP Overview (lite) MU
+Plugin Name: √ WP Overview (lite) MU
 Plugin URI: http://wordpress.org/extend/plugins/wp-overview-lite-mu/
 Description: <code>Show Dashboard Overview</code> and memory usage with less consumption. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Schedule Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend and User Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a>
 Version: 2010.0528.2010-MU
