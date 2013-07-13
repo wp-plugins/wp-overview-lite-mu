@@ -1,15 +1,15 @@
-=== √ WP Overview (lite) MU Footer Memory Usage ===
-Contributors: sLaNGjI
+=== WP Overview (lite) MU Footer Memory Usage ===
+Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
-Tags: memory,limit,wp,overview,lite,mu,show,usage,dashboard,load,footer,sLaNGjI
+Tags: memory,limit,wp,overview,lite,mu,show,usage,dashboard,load,footer, slangjis
 Stable tag: 2010.0821.1539-MU
 Requires at least: 2.7
 Tested up to: 2.9.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-&#9733;&#9733;&#9733; Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
+Show Overview and memory usage on Wordpress Dashboard, with less load consumption. Full compatible with WordPress 2.9.2 MU.
 == Description ==
-Author Website: [slangji.wordpress.com](http://slangji.wordpress.com/) - Author Repositories: [github.com/sLaNGjI](https://github.com/sLaNGjI)
+Author Website: [slangji.wordpress.com](http://slangji.wordpress.com/) - Author Repositories: [github.com/slangji](https://github.com/slangji)
 
 [Find More on sLa Developer Page @ SoftPedia.com](http://webscripts.softpedia.com/author/sLa-1869786722.html)
 
@@ -18,25 +18,25 @@ Show Overview and memory usage on Dashboard, with less load consumption. Work un
 Written for WPMU work with Shared and VPS Hosting. Support all WPMU version from 2.7.0 to 2.9.2 but if you are still using an older one, put latest release on WPMU 2.9.2 instead.
 
 * [Plugins](http://slangji.wordpress.com/plugins/):
- * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
- * [WP Overview (lite) MU](http://wordpress.org/extend/plugins/wp-overview-lite-mu/)
- * [WP Overview (lite) MS](http://wordpress.org/extend/plugins/wp-overview-lite-ms/)
- * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
- * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
- * [WP Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
- * [WP Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
- * [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
- * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
- * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
- * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
- * [Memory Load Consumption db size Usage Indicator](http://wordpress.org/extend/plugins/wp-memory-db-indicator/)
+ * [WP Overview (lite)](http://wordpress.org/plugins/wp-overview-lite/)
+ * [WP Overview (lite) MU](http://wordpress.org/plugins/wp-overview-lite-mu/)
+ * [WP Overview (lite) MS](http://wordpress.org/plugins/wp-overview-lite-ms/)
+ * [WP Missed Schedule](http://wordpress.org/plugins/wp-missed-schedule/)
+ * [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
+ * [WP Admin Bar Node Removal](http://wordpress.org/plugins/wp-admin-bar-node-removal/)
+ * [WP Toolbar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
+ * [WP Toolbar Node Removal](http://wordpress.org/plugins/wp-toolbar-node-removal/)
+ * [Noindex (login) WordPress Deindexing](http://wordpress.org/plugins/wp-login-deindexing/)
+ * [Noindex (total) WordPress Deindexing](http://wordpress.org/plugins/wp-total-deindexing/)
+ * [IE Enhancer and Modernizer](http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
+ * [Memory Load Consumption db size Usage Indicator](http://wordpress.org/plugins/wp-memory-db-indicator/)
  *
- * [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
- * [Health Check](http://wordpress.org/extend/plugins/health-check/) verify if the PHP and MySQL versions of your server are not too low to meet the requirements that we have announced for WordPress 3.2.
+ * [Memory Bump](http://wordpress.org/plugins/memory-bump/) for [Ticket #13847](http://core.trac.wordpress.org/ticket/13847) troubleshooting.
+ * [Health Check](http://wordpress.org/plugins/health-check/) verify if the PHP and MySQL versions of your server are not too low to meet the requirements that we have announced for WordPress 3.2.
 
 Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
 
-Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
+
 
 `Nothing is written into your space disk or VPS`
 `Nothing is written into your database!`
@@ -89,9 +89,9 @@ RESOLVED [WP3 exceed 256 memory limit](http://wordpress.org/support/topic/wp3-ex
 WordPress 3.0 Multi-site: 256 MB Memory Requirements?
 WordPress Multi-site unofficially needs 256 Megabyte of Memory, but only for admin backend panel, not for the user frontend!
 This is a very high value, and is not announced in the minimum WordPress requirements since the 2.7 version. See also: [Technical WordPress Installation Checklist](http://codex.wordpress.org/User:Hakre/Technical_Installation)
-Because raising the memory limit over your servers allowance can crash your blog on some servers, or shared hosting, (Fatal Error: Allowed Memory Size Exhausted) it’s adviseable, previous to upgrade, increase your WordPress Memory Limit with third part plugins like [Memory Bump](http://wordpress.org/extend/plugins/memory-bump/), and check how much PHP or WP Memory your server allows with WP Overview or similar.
+Because raising the memory limit over your servers allowance can crash your blog on some servers, or shared hosting, (Fatal Error: Allowed Memory Size Exhausted) it’s adviseable, previous to upgrade, increase your WordPress Memory Limit with third part plugins like [Memory Bump](http://wordpress.org/plugins/memory-bump/), and check how much PHP or WP Memory your server allows with WP Overview or similar.
 If it’s below 256 Megabytes this could render your blog useless after upgrade, and it means you need to increase your WordPress Memory Limit. Related Ticket: [Ticket #13847](http://core.trac.wordpress.org/ticket/13847)
-For this bug #13847 [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/) and [WP Overview (lite) MU](http://wordpress.org/extend/plugins/wp-overview-lite-mu/) need another upgrade to work fine on WP 3.0 environment.
+For this bug #13847 [WP Overview (lite)](http://wordpress.org/plugins/wp-overview-lite/) and [WP Overview (lite) MU](http://wordpress.org/plugins/wp-overview-lite-mu/) need another upgrade to work fine on WP 3.0 environment.
 The fix is already online on my reposytory [lite](http://plugins.svn.wordpress.org/wp-overview-lite/trunk/) and [mu](http://plugins.svn.wordpress.org/wp-overview-lite-mu/trunk/) and it official released after [WP 3.0.1](http://core.trac.wordpress.org/milestone/3.0.1) launch.
 I tested my plugin, on various scenario, and 48MB is a good chance for somes WP and MU~LTI-SITE installations to work fine.
 = Cannot Redeclare Class: wp_overview_lite =
@@ -181,7 +181,7 @@ First Public Stable Release of WP Overview (lite) MU is now! (full WP 3.0 and 2.
 = 2010.0528.2010-MU =
 Redesigned new style: introduced version MU~LTI-SITE. WP Overview (lite) MU is coming out soon with WP 3.0 ... Stay Tuned!
 == Standard Release of WP Overview (lite) ==
-The final release of this plugin is splitted on two separated versions to improved stability and security. Want you to standard version now? [Download](http://wordpress.org/extend/plugins/wp-overview-lite/) it from here!
+The final release of this plugin is splitted on two separated versions to improved stability and security. Want you to standard version now? [Download](http://wordpress.org/plugins/wp-overview-lite/) it from here!
 
 Show Overview and memory usage on Dashboard, with less load consumption. Work under GPLv2 License.
 

@@ -1,16 +1,16 @@
 <?php
 /*
-Plugin Name: √ WP Overview (lite) MU 
+Plugin Name: WP Overview (lite) MU 
 Plugin URI: http://slangji.wordpress.com/wp-overview-lite-mu/
-Description: Show <code>Dashboard Overview</code> and memory usage with less consumption. Work under GPLv2 License. | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
+Description: Show Dashboard Overview and memory usage with less consumption. Work under GPLv2 License. | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
 Version: 2010.0821.1539-MU
-Author: sLa
+Author: slangjis
 Author URI: http://slangji.wordpress.com/
-License: GPLv2
+License: GPLv2 or later
  *
  * Development Release: Version 2010 Build 1010-BUGFIX Revision 1809-MU
  *
- * [Overview (lite) MU](http://wordpress.org/extend/plugins/wp-overview-lite-mu/) WordPress MU PlugIn
+ * [Overview (lite) MU](http://wordpress.org/plugins/wp-overview-lite-mu/) WordPress MU PlugIn
  *
  *  This program is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU General Public License
@@ -29,18 +29,18 @@ License: GPLv2
  *  The license for this software can be found @ http://www.gnu.org/licenses/gpl-2.0.html
  *
  * This uses code derived from
- * wp-overview-lite.php by sLa <slangji[at]gmail[dot]com>
+ * wp-overview-lite.php by slangjis <slangjis [at] googlemail [dot] com>
  * according to the terms of the GNU General Public License version 2 (or later)
  *
- * Copyright © 2010 [sLa](http://wordpress.org/extend/plugins/profile/slangji) (slangji[at]gmail[dot]com)
+ * Copyright © 2010 [sLa](http://wordpress.org/plugins/profile/slangjis) <slangjis [at] googlemail [dot] com>
  */
 /**
  * @package WP Overview (lite) MU
  * @subpackage WordPress MU PlugIn
  * @since 2.7.0
  * @version 2010.0821.1539-MU
- * @author sLaNGjI
- * @license GPLv2
+ * @author slangjis
+ * @license GPLv2 or later
  *
  * Show Dashboard Overview and Memory Usage with less consumption.
  */
