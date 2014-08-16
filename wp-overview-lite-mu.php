@@ -1,9 +1,9 @@
-<?php
+<?php 
 /*
 Plugin Name: WP Overview (lite) MU 
 Plugin URI: http://slangji.wordpress.com/wp-overview-lite-mu/
 Description: Show Dashboard Overview and memory usage with less consumption. Work under GPLv2 License. | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
-Version: 2010.1010.1809-MU
+Version: 2010.1010.1809
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
 License: GPLv2 or later
@@ -39,7 +39,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * @package WP Overview (lite) MU
  * @subpackage WordPress MU PlugIn
  * @since 2.7.0
- * @version 2010.1010.1809-MU
+ * @version 2010.1010.1809
  * @author slangjis
  * @license GPLv2 or later
  *
